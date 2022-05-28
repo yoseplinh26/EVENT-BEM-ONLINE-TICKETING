@@ -24,39 +24,7 @@
                            Selain mempererat keakraban sesama mahasiswa event ini juga membantu meningkatkan bakat <p>
                            yang dimiliki oleh mahasiswa dan melatih kepercayaan diri. 
                          </p>
-                    </div>
-                    <div class="container-2">
-                      <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                        <!-- Indicators -->
-                        <ol class="carousel-indicators">
-                          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                          <li data-target="#myCarousel" data-slide-to="1"></li>
-                          <li data-target="#myCarousel" data-slide-to="2"></li>
-                          <li data-target="#myCarousel" data-slide-to="3"></li>
-                          <li data-target="#myCarousel" data-slide-to="4"></li>
-                    
-                        </ol>
-                        <!-- Wrapper for slides -->
-                        <div class="carousel-inner" weight="500px" width="350px">
-                          <div class="item active">
-                            <img src="{{asset('img/fesbud.jpeg')}}" alt="Festival Budaya" style="width:100%;">
-                          </div>
-                    
-                          <div class="item">
-                            <img src="{{asset('img/pentas.jpeg')}}" alt="Pentas Budaya" style="width:100%;">
-                          </div>
-                        
-                          <div class="item">
-                            <img src="{{asset('img/podcast.png')}}" alt="Festival Budaya" style="width:100%;">
-                          </div>
-                          <div class="item">
-                            <img src="{{asset('img/MUSIC CORNER.png')}}" alt="Music Corner" style="width:100%;">
-                          </div>
-                          <div class="item">
-                            <img src="{{asset('img/KOPI SORE.png')}}" alt="Kopi Sore" style="width:100%;">
-                          </div>
-                        </div>
-                    </div>
+                      </div>
                     </div>
                 </div>
             </div>
