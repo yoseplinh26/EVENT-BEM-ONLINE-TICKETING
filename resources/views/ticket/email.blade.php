@@ -7,6 +7,6 @@
 <p>{{ $date }}</p>
 <p>{{ $serial }}</p>
 <p>{{ $seat_number }}</p></o>
-<p>Thank you</p>
+<p>Thank you for booking this ticket</p>
 </body>
 </html>

@@ -40,7 +40,7 @@
                         </td>
                         @if(Auth::user()->roles === "admin")
                         <td>
-                            <a href="{{route('events.show', ['event'=>$event])}}" @class('btn btn-sm btn-primary') style="margin-bottom: 10px;">View</a>
+    
                             <form onsubmit="return confirm('Are you sure ?');"
                                   action="{{ route('events.destroy', $event->event_id) }}" method="POST">
                                 @csrf
@@ -50,7 +50,7 @@
                         </td>
                         @else
                         <td>
-                            <a href="{{route('events.ticket', ['event_id'=>$event->event_id])}}" @class('btn btn-sm btn-primary') style="margin-bottom: 10px;">Ticket Book</a>
+                            <a href="{{route('events.ticket', ['event_id'=>$event->event_id])}}" @class('btn btn-sm btn-primary') style="margin-bottom: 10px;">Booking Ticket</a>
                         </td>
                         @endif
                     </tr>
