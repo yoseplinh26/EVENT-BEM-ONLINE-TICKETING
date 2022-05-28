@@ -17,7 +17,7 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="{{asset('css/style_login.css')}} " />
 
 </head>
 <body>
@@ -40,6 +40,9 @@
                         @else
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('events.index') }}">{{ __('Events') }}</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ route('team') }}">{{ __('Team') }}</a>
                             </li>
                             @if(Auth::user()->roles == "member")
                                 <li class="nav-item">
@@ -91,6 +94,7 @@
 
         <main class="py-4">
             @yield('content')
+            
         </main>
     </div>
 </body>

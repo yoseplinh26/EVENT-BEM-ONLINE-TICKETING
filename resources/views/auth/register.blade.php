@@ -16,9 +16,9 @@
   <body>
     <section class="ftco-section">
       <div class="container">
-        <div class="row justify-content-center"></div>
         <div class="row justify-content-center">
-          <div class="col-md-7 col-lg-6 col-xl-5">
+          <div class="col-md-7 col-lg-5">
+            <div class="wrap">
             <div class="login-wrap p-4 p-md-5">
               <div class="logo-cover">
                 <img src="{{asset('img/7.png')}}">

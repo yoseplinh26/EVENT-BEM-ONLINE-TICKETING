@@ -8,7 +8,7 @@
                     <h2>Add New Events</h2>
                     @if ($errors->any())
                         <div class="alert alert-danger">
-                            <strong>OMOOOO!</strong> There were some problems with your input. Check it again<br><br>
+                            <strong>Whoops!</strong> There were some problems with your input.<br><br>
                             <ul>
                                 @foreach ($errors->all() as $error)
                                     <li>{{ $error }}</li>
@@ -34,11 +34,11 @@
                                    placeholder="seats quota">
                         </div>
                         <div class="form-group">
-                            <label for="start_date">StartDate</label>
+                            <label for="start_date">Start Date</label>
                             <input type="date" class="form-control" id="start_date" name="start_date">
                         </div>
                         <div class="form-group">
-                            <label for="end_date">StartDate</label>
+                            <label for="end_date">End Date</label>
                             <input type="date" class="form-control" id="end_date" name="end_date">
                         </div>
                         <br>
@@ -52,6 +52,29 @@
                 </div>
             </div>
         </div>
+
+        <footer class="main-footer"><center>
+            <div class="copyright">
+              &copy; Copyright <strong><span>Berkisa Team-09</span></strong>. All Rights Reserved
+            </div>
+            <div class="credits">
+              <!-- All the links in the footer should remain intact. -->
+              <!-- You can delete the links only if you purchased the pro version. -->
+              <!-- Licensing information: https://bootstrapmade.com/license/ -->
+              <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/ -->
+              Designed by <a href="">Berkisa Team</a>
+            </div>
+          </div>
+          <div class="social-links text-center text-md-right pt-3 pt-md-0">
+            <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+            <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+            <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+            <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          </div>
+        </div>
+      </footer>
+      
     </div>
 
 @endsection

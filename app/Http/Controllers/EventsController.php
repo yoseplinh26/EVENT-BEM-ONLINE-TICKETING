@@ -73,7 +73,7 @@ class EventsController extends Controller
     public function detail($event_id) {
         $user_id = Auth::user()->id;
         if (Ticket::where('user_id', $user_id )->where('event_id', $event_id)->exists()) {
-            Alert::warning('Alert', 'Already Booked');
+            Alert::warning('Alert', 'You have ordered this ticket');
             return redirect()->back();
         } else {
             $tickets = Ticket::where('event_id', $event_id)->orderBy('seat_number', 'DESC')->get();

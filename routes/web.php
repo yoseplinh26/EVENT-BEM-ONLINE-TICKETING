@@ -23,6 +23,7 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [HomeController::class, 'index'])->name('home')->middleware('auth');
+Route::get('/team', [HomeController::class, 'team'])->name('team');
 Route::resource('events', EventsController::class)->middleware('auth');
 Route::resource('ticket', \App\Http\Controllers\TicketController::class)->middleware('auth');;
 Route::get('/events/{event_id}/ticket', [EventsController::class, 'detail'])->name('events.ticket')->middleware('auth');;
