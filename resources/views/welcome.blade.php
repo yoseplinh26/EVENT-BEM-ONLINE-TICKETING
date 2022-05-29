@@ -40,46 +40,6 @@
                            Selain mempererat keakraban sesama mahasiswa event ini juga membantu meningkatkan bakat <br>
                            yang dimiliki oleh mahasiswa dan melatih kepercayaan diri. 
                          </p>
-<<<<<<< HEAD
-                    </div>
-                    <div class="container-2">
-                      <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                        <!-- Indicators -->
-                        <ol class="carousel-indicators">
-                          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                          <li data-target="#myCarousel" data-slide-to="1"></li>
-                          <li data-target="#myCarousel" data-slide-to="2"></li>
-                          <li data-target="#myCarousel" data-slide-to="3"></li>
-                          <li data-target="#myCarousel" data-slide-to="4"></li>
-                    
-                        </ol>
-                        <!-- Wrapper for slides -->
-                        <div class="carousel-inner" weight="500px" width="350px">
-                          <div class="item active">
-                            <img src="{{asset('img/fesbud.jpeg')}}" alt="Festival Budaya" style="width:100%;">
-                          </div>
-                    
-                          <div class="item">
-                            <img src="{{asset('img/pentas.jpeg')}}" alt="Pentas Budaya" style="width:100%;">
-                          </div>
-                        
-                          <div class="item">
-                            <img src="{{asset('img/podcast.png')}}" alt="Festival Budaya" style="width:100%;">
-                          </div>
-                          <div class="item">
-                            <img src="{{asset('img/MUSIC CORNER.png')}}" alt="Music Corner" style="width:100%;">
-                          </div>
-                          <div class="item">
-                            <img src="{{asset('img/KOPI SORE.png')}}" alt="Kopi Sore" style="width:100%;">
-                          </div>
-                        </div>
-                    </div>
-=======
->>>>>>> b47a319c57621ea530f1be3a9ae92d6719a22feb
-                    </div>
-                    <div id="slider">
-
-</div>
 
 <section id="features">
                 <div class="container">
@@ -134,12 +94,16 @@
                                     <p>Music corner dilaksanakan sesuai dengan namanya yaitu “Corner” yang dilaksanakan di corner yang ada di kampus It Del.
                                        Pada kegiatan ini setiap mahasiswa dapat menampilkan setiap bakat yang dimiliki. </p>
                                        </section>
+
                                     <div class="fitur"><img src="{{asset('img/Podcast.png')}}"></a>
-                                    
+                                      <section>
+                                    <header>
                                         <h3>Podcast</h3>
+                                    </header>
                                     
                                     <p>Podcast ini dilakukan oleh anggota panitia depsendub yang biasanya
                                        event ini akan membahas mengenai depertemen seni dan budaya BEM yang ada di Institut Teknologi DEL.</p>
+                                        </section>
 </div>
 </div>
 </div>
