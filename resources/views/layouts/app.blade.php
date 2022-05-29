@@ -41,12 +41,13 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('events.index') }}">{{ __('Events') }}</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ route('team') }}">{{ __('Team') }}</a>
-                            </li>
+                        
                             @if(Auth::user()->roles == "member")
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{ route('ticket.index') }}">{{ __('Tickets') }}</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ route('team') }}">{{ __('Team') }}</a>
                                 </li>
                                 @endif
                         @endif
