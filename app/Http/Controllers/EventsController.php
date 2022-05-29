@@ -37,7 +37,6 @@ class EventsController extends Controller
         ]);
 
         $path = $request->file('image')->store('images');
-        dd($path);
 
         $events = Events::create([
             'name' => $request->name,
